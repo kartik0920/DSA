@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "*.java": "bat",
-        "cmath": "cpp"
-    }
-}
