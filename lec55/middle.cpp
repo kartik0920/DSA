@@ -1,0 +1,1 @@
+// https://www.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1

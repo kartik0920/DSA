@@ -1,24 +1,21 @@
 #include <iostream>
 #include <stack>
-
 using namespace std;
 int main()
 {
-    string input;
-    cin >> input;
+    string Input;
+    cin >> Input;
     stack<char> s;
-    for (int i = 0; i < input.length(); i++)
+    string ans;
+    for (int i = 0; i < Input.length(); i++)
     {
-        s.push(input[i]);
+        s.push(Input[i]);
     }
-    cout << s.size() << endl;
-    string ans = "";
     while (!s.empty())
     {
         ans.push_back(s.top());
         s.pop();
     }
-    cout << ans << " is answer" << endl;
-
+    cout << ans;
     return 0;
 }
